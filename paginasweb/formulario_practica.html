@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <form action="https://m08-smx-isaac.000webhostapp.com/php/form.php" method="get">
+        <fieldset>
+            <legend>Información basica</legend>
+            <label for="nombre">Nombre</label><br>
+            <input type="text" id="nombre" name="nombre" /><br>
+            <label for="altura">Altura</label><br>
+            <input type="altura" id="altura" name="altura" value="150" /><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com"/><br>
+            <label for="fecha">Fecha de nacimiento</label><br>
+            <input type="date" id="fecha" name="fecha" /><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Nacionalidad</legend>
+                <input type="radio" id="española" name="nacionalidad" value="española"
+                       checked>
+                <label for="española">Española</label>
+          
+                <input type="radio" id="comunitario" name="nacionalidad" value="comunitario">
+                <label for="comunitario">Comunitario</label>
+          
+                <input type="radio" id="no-comunitario" name="nacionalidad" value="no comunitario">
+                <label for="no-comunitario">No comunitario</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Estudios</legend>
+            <select name="estudios" id="estudios">
+                <option value="Grado medio">GM</option>
+                <option value="Grado superior">GS</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Idiomas</legend>
+            <input type="checkbox" value="catalan" name="idiomas[]">
+            <label for="idiomas">Catalan</label>
+            <input type="checkbox" value="castellano" name="idiomas[]">
+            <label for="idiomas">Castellano</label>
+            <input type="checkbox" value="ingles" name="idiomas[]">
+            <label for="idiomas">Ingles</label>
+        </fieldset>
+       
+        <fieldset>
+            <button type="submit">Enviar</button>
+            <button type="reset">Cancelar</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
