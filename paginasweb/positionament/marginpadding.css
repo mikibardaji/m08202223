@@ -1,0 +1,28 @@
+h1{
+    border: 2px solid red;
+    background-color: aqua;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+h2
+{
+    border: 2px dotted brown;
+}
+
+p
+{
+    margin-top: 100px;
+    padding-top: 50px;
+    border: 2px double rebeccapurple;
+}
+
+a
+{
+    border: 5px solid lemonchiffon; 
+}
+
+div
+{
+    border: 2px double rebeccapurple;
+}

@@ -1,0 +1,35 @@
+/*.vader
+{
+    position: relative;
+    top: 20em;
+    left: 15em;
+}
+
+.vader11
+{
+    position: relative;
+    bottom: 23em;
+}*/
+/*
+.vader
+{
+    position: absolute;
+    top: 20em;
+}
+
+.yoda
+{
+    position: absolute;
+    left: 15em;
+    top: 20em;
+}
+*/
+
+div{
+    position: fixed; /*subclase absolute*/
+    top: 15em;
+    left: 5em;
+    border: 2px solid black;
+    width: 25%;
+    background-color: blueviolet;
+}
